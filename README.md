@@ -2,7 +2,9 @@
 
 # Grid Chain Games — Demo
 
-Demo project: [Grid Chain Games](https://github.com/ATrnd/GridChainGames) Alpha version
+Demo project: [Grid Chain Games](https://atrnd.github.io/GCG_demo/) Alpha version
+
+GCG repo: [GCG repo](https://github.com/ATrnd/GridChainGames)
 
 <br>
 
