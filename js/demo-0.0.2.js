@@ -642,7 +642,7 @@ document.addEventListener("DOMContentLoaded", () => {
         uiHTML = `
         <div id="GCG-main-ctr" class="flex-core flex-col flex-center">
             <div class="flex-core flex-col flex-center-dev">
-                <img class="GCG-sum-logo lg-mb-25 lg-mt-25" src="_img/gcg-logo-0.1.png" alt="">
+                <img class="GCG-sum-logo lg-mb-25 lg-mt-25" src="img/gcg-logo-0.1.png" alt="">
                 <p class="GCG-sum-p01">Total Game Lifespan :: ${gameLifespanLimit} seconds</p>
                 <p class="GCG-sum-p01">Total accounts simulated :: ${dataIterator} accounts</p>
                 <p class="GCG-sum-p01">Game Step Limit :: ${gameStepLimit} steps</p>
