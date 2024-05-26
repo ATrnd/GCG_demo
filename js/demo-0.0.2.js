@@ -37,7 +37,7 @@ const gameStepLimit = 3;
  * The time limit for each game step in seconds.
  * @type {number}
  */
-const gameStepTimeLimit = 1;
+const gameStepTimeLimit = 2;
 
 /**
  * An object containing XP credit values for different levels.
@@ -650,7 +650,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p class="GCG-sum-p01">Game phases :: 2 phases | default-phase, game-phase</p>
                 <p class="GCG-sum-p01">Noise layers :: 2 layers | modulo-operation, random noise sequence lookup</p>
                 <p class="GCG-sum-p01">Game objectives :: 3 objectives | collecting: experience, credits, completing: ${gameStepLimit} steps</p>
-                <p class="GCG-sum-p01">Security layers :: 3 layers | Game Lifespan validation, Game phase validation, Player Step validation</p>
+                <p class="GCG-sum-p01">Security layers :: 4 layers | Game Lifespan validation, Game phase validation, Player Step validation, Step Time Limit</p>
                 <button id="GCG-reset" class="button lg-mt-25 lg-mb-25">Reset</button>
                 <p class="GCG-sum-p01">Scoreboard:</p>
                 <div id="GCG-leaderboard"></div>
