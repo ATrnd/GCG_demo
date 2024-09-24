@@ -22,6 +22,10 @@ span {
           box-sizing: border-box;
 }
 
+html {
+  font-family: monospace;
+}
+
 html,
 body {
   height: 100%;
